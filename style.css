@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background-color: rgb(193, 193, 82);
+  background-color: rgb(246, 255, 0);
 }
 
 .heading-div {
@@ -20,4 +20,92 @@ body {
   margin: 0;
   margin-left: 20px;
   color: yellow;
+}
+
+.heading-div h2 {
+  color: rgb(184, 184, 4);
+  margin-top: 10px;
+}
+
+/*home contents */
+
+.home-contents {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.home-contents button {
+  padding: 15px 20px;
+  background-color: black;
+  border: 5px;
+  border-radius: 20%;
+  margin-top: 7px;
+  color: white;
+}
+
+.home-contents button:hover {
+  transition: 0.3s ease-in-out;
+  padding: 17px 23px;
+  background-color: white;
+  border: 5px;
+  border-radius: 20%;
+  color: black;
+}
+
+/* Interfaces aka all chatroom divs */
+/* PHILOSOPHY */
+.philosophy-interface {
+  display: flex;
+  align-items: center;
+}
+
+.philosophy-interface button {
+  margin-right: 10px; /* Adjust the margin as per your preference */
+}
+/* RELIGION */
+.religion-interface {
+  display: flex;
+  align-items: center;
+}
+
+.religion-interface button {
+  margin-right: 10px;
+}
+
+/* Display all the way at the bottom to attract attention */
+/* Rule contents */
+
+.rule-contents {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.rule-contents p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.rule-contents h2 {
+  margin-left: 20px;
+}
+
+.rule-contents button {
+  padding: 15px 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 255, 59);
+  border-color: rgb(255, 237, 43);
+  border: 5px;
+  border-radius: 20%;
+  margin-left: 15px;
+}
+
+.rule-contents button:hover {
+  transition: 1s ease-in-out;
+  color: rgb(255, 255, 255);
+  background-color: rgb(156, 135, 0);
+  border-color: rgb(156, 135, 0);
 }
