@@ -1,3 +1,10 @@
+/* PRESETS */
+.hide {
+  display: none;
+  overflow: hidden;
+}
+
+/* html */
 html,
 body {
   margin: 0;
@@ -7,6 +14,8 @@ body {
 body {
   background-color: rgb(246, 255, 0);
 }
+
+/* MENU ACCESS */
 
 .menu-button {
   position: absolute;
@@ -23,8 +32,41 @@ body {
   font-size: 35px;
   padding: 20px 20px;
   border: none;
+  top: 0;
+  right: 0;
+}
+
+.menu-button button:hover {
+  transition: 0.3s ease-in-out;
+  padding: 23px 23px;
   color: white;
-  margin-bottom: 40px;
+}
+
+ion-icon {
+  color: yellow;
+}
+
+.menu-contents {
+  align-items: center;
+  display: flex;
+}
+
+.menu-contents button {
+  padding: 15px 20px;
+  background-color: black;
+  border: 5px;
+  border-radius: 20%;
+  margin-top: 7px;
+  color: white;
+}
+
+.menu-contents button:hover {
+  transition: 0.3s ease-in-out;
+  padding: 17px 23px;
+  background-color: white;
+  border: 5px;
+  border-radius: 20%;
+  color: black;
 }
 
 .heading-div {
@@ -124,8 +166,9 @@ body {
 
 .rule-contents p {
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 20px;
+  margin-right: 30px;
 }
 
 .rule-contents h2 {
