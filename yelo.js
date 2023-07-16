@@ -1,9 +1,6 @@
 //Chatroons access
-
-const politicsBtn = document.getElementById("politics-btn");
-const religionBtn = document.getElementById("religion-btn");
-const debateBtn = document.getElementById("debate-btn");
-const philosophyBtn = document.getElementById("philosophy-btn");
+const menuPage = document.getElementById("menu-page");
+const homePage = document.getElementById("home-page");
 
 document.addEventListener("DOMContentLoaded", function () {
   // Code to execute when the DOM is ready
@@ -21,11 +18,23 @@ document.addEventListener("DOMContentLoaded", function () {
     var politicsPath = folderPath + "/mobile/mobile.html";
     window.location.href = politicsPath;
   }
+});
 
-  const menuPage = document.getElementById("menu-page");
-
+document.addEventListener("DOMContentLoaded", function () {
   menuPage.classList.add("hide");
 });
+
+const menuBtn = document.getElementById("menu-btn");
+
+menuBtn.addEventListener("click", function () {
+  homePage.classList.add("hide");
+  menuPage.classList.remove("hide");
+});
+
+const politicsBtn = document.getElementById("politics-btn");
+const religionBtn = document.getElementById("religion-btn");
+const debateBtn = document.getElementById("debate-btn");
+const philosophyBtn = document.getElementById("philosophy-btn");
 
 politicsBtn.addEventListener("click", function () {
   var scriptLocation = window.location.href;
@@ -53,19 +62,6 @@ debateBtn.addEventListener("click", function () {
   var folderPath = scriptLocation.substring(0, scriptLocation.lastIndexOf("/"));
   var debatePath = folderPath + "/chatrooms/debate.html";
   window.location.href = debatePath;
-});
-
-//Pages
-
-const menuPage = document.getElementById("menu-page");
-const homePage = document.getElementById("home-page");
-
-//Menu
-const menuBtn = document.getElementById("menu-btn");
-
-menuBtn.addEventListener("click", function () {
-  homePage.classList.add("hide");
-  menuPage.classList.remove("hide");
 });
 
 // get to rules file
