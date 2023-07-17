@@ -50,7 +50,7 @@ ion-icon {
   align-items: center;
 }
 
-.menu-page button {
+.menu-page-buttons button {
   padding: 15px 20px;
   background-color: black;
   border: 5px;
@@ -60,7 +60,7 @@ ion-icon {
   margin-left: 20px;
 }
 
-.menu-page button:hover {
+.menu-page-buttons button:hover {
   transition: 0.3s ease-in-out;
   padding: 17px 23px;
   background-color: white;
