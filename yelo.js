@@ -18,9 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var politicsPath = folderPath + "/mobile/mobile.html";
     window.location.href = politicsPath;
   }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
   menuPage.classList.add("hide");
 });
 

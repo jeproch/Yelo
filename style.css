@@ -46,21 +46,21 @@ ion-icon {
   color: yellow;
 }
 
-.menu-contents {
+.menu-page {
   align-items: center;
-  display: flex;
 }
 
-.menu-contents button {
+.menu-page button {
   padding: 15px 20px;
   background-color: black;
   border: 5px;
   border-radius: 20%;
   margin-top: 7px;
   color: white;
+  margin-left: 20px;
 }
 
-.menu-contents button:hover {
+.menu-page button:hover {
   transition: 0.3s ease-in-out;
   padding: 17px 23px;
   background-color: white;
