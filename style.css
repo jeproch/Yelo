@@ -15,6 +15,10 @@ body {
   background-color: rgb(246, 255, 0);
 }
 
+.news h2 {
+  margin-left: 20px;
+}
+
 /* MENU ACCESS */
 
 .menu-button {
