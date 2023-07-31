@@ -85,6 +85,8 @@ const updatesBtn = document.getElementById("updates-btn");
 const updatesContents = document.getElementById("updatesContents");
 
 const submitBtn = document.getElementById("submit-btn");
+
+// more dom loaded references check line 4- 8
 document.addEventListener("DOMContentLoaded", function () {
   updatesContents.classList.add("hide");
 });
