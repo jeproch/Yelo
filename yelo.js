@@ -82,4 +82,14 @@ rulesBtn.addEventListener("click", function () {
 // MENU BUTTONS
 
 const updatesBtn = document.getElementById("updates-btn");
+const updatesContents = document.getElementById("updatesContents");
+
 const submitBtn = document.getElementById("submit-btn");
+document.addEventListener("DOMContentLoaded", function () {
+  updatesContents.classList.add("hide");
+});
+
+submitBtn.addEventListener("click", function () {
+  window.location.href = "mailto:vantonderbenna@gmail.com"; //"mailto:fvt@fvt.co.za"
+  updatesContents.classList.add("hide");
+});
